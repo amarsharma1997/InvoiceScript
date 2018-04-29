@@ -1,0 +1,11 @@
+Pechkus invoices are made in real time at the time of placement of order. But Today, it didn't happen. Now you have an Excel File (orders.xlsx) which has a list of all the order placed in last 1 hour along with other relevant details. You're required to make a Python Script to convert these orders to invoice.xlsx file. Each invoive.xlsx file contains 2 different invoices. In test case you're given 10 orders. Your solution should be valid for 'n' number of such orders. Final Output for test case should contain 5 invoice files i.e. 10 invoices in total.  
+
+
+Points to Remember:
+You're provided a sample invoice.xlsx file. 
+Final Output should be in same format. 
+You are advised to stay cautious regarding orders which have more than one lineitems.
+Order Number and Invoice Number are same.
+orders.xlsx contains Abbreviation for State Names but Invoice should contain state name. state.xlsx contains dictionary for that.
+GST codes for different states can be found in GST.xlsx
+HSN/SAC field should always be filled with 6101 in invoice.xlsx.
